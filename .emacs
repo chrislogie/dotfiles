@@ -31,6 +31,10 @@
 ;; Don't indent namespace
 (c-set-offset 'innamespace 0)
 
+;; rust-mode
+(autoload 'rust-mode "rust-mode" nil t)
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+
 ;; Setup an 80 column guide
 (require 'fill-column-indicator)
 (add-hook 'c-mode-common-hook 'fci-mode)
