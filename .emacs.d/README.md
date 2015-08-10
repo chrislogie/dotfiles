@@ -2,5 +2,5 @@
 
 * fill-column-indicator
 
-- http://www.emacswiki.org/emacs/FillColumnIndicator
+ * http://www.emacswiki.org/emacs/FillColumnIndicator
 
