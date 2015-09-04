@@ -12,6 +12,7 @@
 (require 'color-theme)
 (color-theme-initialize)
 (set-face-background 'hl-line "#444444")
+(color-theme-crl)
 
 ;; Use M-<direction> to switch windows
 (global-set-key [M-left] 'windmove-left)
@@ -46,4 +47,3 @@
 (scroll-bar-mode -1)
 
 (show-paren-mode 1)
-
