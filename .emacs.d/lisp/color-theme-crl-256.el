@@ -1,4 +1,4 @@
-(defun color-theme-crl()
+(defun color-theme-crl-256()
   (interactive)
   (color-theme-install
    '(color-theme-crl
