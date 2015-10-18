@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 
 ;; Display line numbers for all files
 (global-linum-mode 1)
@@ -11,6 +11,8 @@
 
 (require 'color-theme)
 (color-theme-initialize)
+(load-library "color-theme-crl")
+(load-library "color-theme-crl-256")
 (set-face-background 'hl-line "#444444")
 (color-theme-crl)
 
