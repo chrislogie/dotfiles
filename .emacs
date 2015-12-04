@@ -34,6 +34,9 @@
 ;; Don't indent namespace
 (c-set-offset 'innamespace 0)
 
+;; .h Files in C++ mode
+(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
+
 ;; rust-mode
 (autoload 'rust-mode "rust-mode" nil t)
 (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
